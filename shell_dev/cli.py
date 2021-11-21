@@ -1,5 +1,5 @@
 from optparse import OptionParser
-from shell_dev.core import chk_mingw_toolkit
+from .core import chk_mingw_toolkit, gen_shellcode
 
 title = \
     """
