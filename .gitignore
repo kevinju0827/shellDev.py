@@ -99,3 +99,53 @@ ENV/
 
 # mypy
 .mypy_cache/
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Distribution / packaging
+share/python-wheels/
+MANIFEST
+
+# Unit test / coverage reports
+.nox/
+*.py,cover
+.pytest_cache/
+cover/
+
+# Django stuff:
+db.sqlite3
+db.sqlite3-journal
+
+# PyBuilder
+.pybuilder/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat.pid
+
+# Environments
+env.bak/
+venv.bak/
+
+# mypy
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
